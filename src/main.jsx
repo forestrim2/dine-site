@@ -48,9 +48,10 @@ function Header(){
   <img src="/logo.png" alt="DINE" />
 </a>
       <nav>
-        <a href={INSTAGRAM_URL} target="_blank" rel="noreferrer">DM 문의</a>
-        <a href="/admin">Admin</a>
-      </nav>
+  <a href={INSTAGRAM_URL}>DM 문의</a>
+</nav>
+
+<a href="/admin" className="admin-floating">Admin</a>
     </header>
   );
 }
