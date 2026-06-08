@@ -75,8 +75,8 @@ function Home(){
       <Header/>
       <main className="container">
         <section className="hero">
-          <p className="eyebrow">floral & object</p>
-          <h1>Rug to Wear</h1>
+          <p className="eyebrow">Rug to Wear</p>
+          <h1>한벌의 가치있는 옷을 만듭니다.</h1>
           <p>상세 이미지를 확인하신 뒤 주문은 Instagram DM으로 문의해주세요.</p>
         </section>
 
