@@ -37,9 +37,11 @@ function SetupNotice(){
       <p>Supabase 환경변수가 아직 연결되지 않았습니다.</p>
       <code>VITE_SUPABASE_URL</code>
       <code>VITE_SUPABASE_ANON_KEY</code>
-    </main>
-  );
-}
+   </main>
+<footer className="site-footer">
+  <a href="/admin">admin</a>
+</footer>
+  
 
 function Header(){
   return(
@@ -100,10 +102,6 @@ function Home(){
           ))}
         </section>
       </main>
-
-      <footer className="site-footer">
-        <a href="/admin">Admin</a>
-      </footer>
     </>
   );
 }
