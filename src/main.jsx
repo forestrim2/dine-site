@@ -107,6 +107,10 @@ function Home(){
           ))}
         </section>
       </main>
+
+      <footer className="site-footer">
+        <a href="/admin">admin</a>
+      </footer>
     </>
   );
 }
