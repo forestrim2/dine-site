@@ -51,7 +51,7 @@ function Header(){
   <a href={INSTAGRAM_URL}>DM 문의</a>
 </nav>
 
-<a href="/admin" className="admin-floating">Admin</a>
+<a href="/관리자" className="admin-floating">관리자</a>
     </header>
   );
 }
