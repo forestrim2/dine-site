@@ -44,7 +44,9 @@ function SetupNotice(){
 function Header(){
   return(
     <header className="site-header">
-      <a href="/" className="brand">DINE</a>
+    <a href="/" className="brand">
+  <img src="/logo.png" alt="DINE" />
+</a>
       <nav>
         <a href={INSTAGRAM_URL} target="_blank" rel="noreferrer">DM 문의</a>
         <a href="/admin">Admin</a>
