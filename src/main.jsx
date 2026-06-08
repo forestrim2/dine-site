@@ -54,7 +54,7 @@ function Header(){
         <a href={INSTAGRAM_URL} target="_blank" rel="noreferrer">DM 문의</a>
       </div>
 
-      <a href="/admin" className="admin-floating">admin</a>
+      <a href="/Admin" className="admin-floating">Admin</a>
     </>
   );
 }
