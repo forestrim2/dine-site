@@ -41,12 +41,23 @@ function SetupNotice(){
   );
 }
 
-function Header(){  return(    <>
-      <div className="top-bar">        <a href={INSTAGRAM_URL} target="_blank" rel="noreferrer">DM 문의</a>      </div>
+function Header(){
+  return(
+    <>
+      <header className="site-header">
+        <a href="/" className="brand">
+          <img src="/logo.png" alt="DINE"/>
+        </a>
+      </header>
 
-      <header className="site-header">        <a href="/" className="brand">          <img src="/logo.png" alt="DINE"/>        </a>      </header>
+      <div className="top-bar">
+        <a href={INSTAGRAM_URL} target="_blank" rel="noreferrer">DM 문의</a>
+      </div>
 
-      <a href="/admin" className="admin-floating">admin</a>    </>  );}
+      <a href="/admin" className="admin-floating">admin</a>
+    </>
+  );
+}
 function Home(){
   const[products,setProducts]=useState([]);
   const[loading,setLoading]=useState(true);
