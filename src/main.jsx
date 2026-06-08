@@ -25,7 +25,7 @@ function formatPriceInput(value){
 function App(){
   const path=window.location.pathname;
   if(!SUPABASE_URL||!SUPABASE_ANON_KEY)return<SetupNotice/>;
-  if(path==='/admin')return<Admin/>;
+  if(path==='/admin')return<admin/>;
   if(path==='/product')return<ProductDetail/>;
   return<Home/>;
 }
@@ -53,8 +53,6 @@ function Header(){
       <div className="top-bar">
         <a href={INSTAGRAM_URL} target="_blank" rel="noreferrer">DM 문의</a>
       </div>
-
-      <a href="/Admin" className="admin-floating">Admin</a>
     </>
   );
 }
@@ -102,6 +100,10 @@ function Home(){
           ))}
         </section>
       </main>
+
+      <footer className="site-footer">
+        <a href="/admin">Admin</a>
+      </footer>
     </>
   );
 }
@@ -180,7 +182,7 @@ function ProductDetail(){
   );
 }
 
-function Admin(){
+function admin(){
   const[session,setSession]=useState(null);
   const[loading,setLoading]=useState(true);
 
